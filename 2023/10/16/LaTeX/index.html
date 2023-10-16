@@ -18,17 +18,17 @@
   <meta name="author" content="JunPickle">
   <meta name="keywords" content="">
   
-    <meta name="description" content="LaTeX 希腊字母\字母对应英文单词 *打出大写字母则需要将单词首字母大写  字母表alpha $\alpha$ $\Alpha$beta $\beta$ $\Beta$gamma $\gamma$ $\Gamma$delta $\delta$ $\Delta$epsilon $\epsilon$ $\Epsilon$ $\varepsilon$ &lt;-变体小写zeta $\zeta$ $">
+    <meta name="description" content="LaTeX 希腊字母\字母对应英文单词 *打出大写字母则需要将单词首字母大写 字母表alpha $\alpha$ $\Alpha$beta $\beta$ $\Beta$gamma $\gamma$ $\Gamma$delta $\delta$ $\Delta$epsilon $\epsilon$ $\Epsilon$ $\varepsilon$ &lt;-变体小写zeta $\zeta$ $\">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用 LaTeX 编辑数学符号时可能用到的公式">
 <meta property="og:url" content="https://junpickle.github.io/2023/10/16/LaTeX/index.html">
 <meta property="og:site_name" content="BlogOfJunPickle">
-<meta property="og:description" content="LaTeX 希腊字母\字母对应英文单词 *打出大写字母则需要将单词首字母大写  字母表alpha $\alpha$ $\Alpha$beta $\beta$ $\Beta$gamma $\gamma$ $\Gamma$delta $\delta$ $\Delta$epsilon $\epsilon$ $\Epsilon$ $\varepsilon$ &lt;-变体小写zeta $\zeta$ $">
+<meta property="og:description" content="LaTeX 希腊字母\字母对应英文单词 *打出大写字母则需要将单词首字母大写 字母表alpha $\alpha$ $\Alpha$beta $\beta$ $\Beta$gamma $\gamma$ $\Gamma$delta $\delta$ $\Delta$epsilon $\epsilon$ $\Epsilon$ $\varepsilon$ &lt;-变体小写zeta $\zeta$ $\">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://junpickle.github.io/2023/10/16/LaTeX/image_1646208670501_0.png">
 <meta property="og:image" content="https://junpickle.github.io/2023/10/16/LaTeX/image_1646209000843_0.png">
 <meta property="article:published_time" content="2023-10-16T07:01:19.000Z">
-<meta property="article:modified_time" content="2023-10-16T10:17:31.232Z">
+<meta property="article:modified_time" content="2023-10-16T10:21:04.179Z">
 <meta property="article:author" content="JunPickle">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://junpickle.github.io/2023/10/16/LaTeX/image_1646208670501_0.png">
@@ -328,13 +328,11 @@
                 
                 <ul>
 <li><h1 id="LaTeX"><a href="#LaTeX" class="headerlink" title="LaTeX"></a>LaTeX</h1><ul>
-<li><p><strong>希腊字母</strong><code>\字母对应英文单词</code> *<em>打出大写字母则需要将单词首字母大写</em></p>
-<ul>
+<li><strong>希腊字母</strong><code>\字母对应英文单词</code> *<em>打出大写字母则需要将单词首字母大写</em><ul>
 <li>字母表<br>alpha $\alpha$ $\Alpha$<br>beta $\beta$ $\Beta$<br>gamma $\gamma$ $\Gamma$<br>delta $\delta$ $\Delta$<br>epsilon $\epsilon$ $\Epsilon$ $\varepsilon$ &lt;-变体小写<br>zeta $\zeta$ $\Zeta$<br>eta $\eta$ $\Eta$<br>theta $\theta$ $\Theta$<br>iota $\iota$ $\Iota$<br>kappa $\kappa$ $\Kappa$<br>lambda $\lambda$ $\Lambda$<br>mu $\mu$ $\Mu$<br>nu $\nu$ $\Nu$<br>xi $\xi$ $\Xi$<br>omicron $\omicron$ $\Omicron$<br>pi $\pi$ $\Pi$<br>rho $\rho$ $\Rho$<br>sigma $\sigma$ $\Sigma$<br>tau $\tau$ $\Tau$<br>upsilon $\upsilon$ $\Upsilon$<br>phi $\phi$  $\Phi$   $\varphi$ &lt;-变体小写<br>chi $\chi$ $\Chi$<br>psi $\psi$ $\Psi$<br>omega $\omega$ $\Omega$</li>
 </ul>
 </li>
-<li><p><strong>符号</strong></p>
-<ul>
+<li><strong>符号</strong><ul>
 <li><strong>四则运算符号</strong><code>+ - \times \cdot \div</code><br>例 $\times \cdot \div$  </li>
 <li><strong>正负号</strong><code>\pm \mp</code><br>例 $\pm \mp$  </li>
 <li><strong>大于等于、小于等于、远大于、远小于、不等于、约等于、恒等于</strong><code>\ge \le \gg \ll \ne \approx \geqslant \leqslant \equiv</code><br>例 $\ge \le \gg \ll \ne \approx \geqslant \leqslant \equiv$  </li>
@@ -355,20 +353,12 @@
 <li><strong>角</strong><code>\angle</code><br>例 $\angle$</li>
 </ul>
 </li>
-<li><p><strong>垂直</strong> <code>\perp</code><br>$\perp$  </p>
-</li>
-<li><p><strong>分数</strong><code>\frac&#123;&#125;&#123;&#125;</code><br>例 $a&#x3D;\frac{b}{c}$<br>*当分数中的部分显示过小时，可以使用<code>\dfrac&#123;&#125;&#123;&#125;</code>使其中的显示变大<br>例 x $\dfrac{\dfrac1{x+1}}{y+1}$ &lt;-变大版本  </p>
-<pre><code class="hljs"> x $\frac&#123;\frac1&#123;x+1&#125;&#125;&#123;y+1&#125;$ &lt;-普通版本  
-</code></pre>
-</li>
-<li><p><strong>取极限</strong><code>\lim\limits_&#123;&#125;</code> *<em>箭头需要用 <code>\to</code>表示</em><br>例 $\lim\limits_{x \to 0}$<br>*若不加<code>\limits</code>，显示为 $\lim_{x \to 0}$  </p>
-</li>
-<li><p><strong>三角函数、对数函数</strong><code>\函数拼写</code> *<em>当函数后的内容多于一个字符时，使用大括号将其包括</em><br>例 $\sin x &#x2F;\ln{x+1}$  </p>
-</li>
-<li><p><strong>求和、求积</strong><code>\sum\limits_&#123;&#125;^</code> <code>\prod\limits_&#123;&#125;^</code><br>例 $\sum\limits_{i&#x3D;0}^n$  </p>
-</li>
-<li><p><strong>积分、重积分</strong><code>\int \iint \iiint \oint \oiint</code> 使用 <code>\displaystyle</code> 可使单行积分符号大小变大<br>例 $\int \iint \iiint \oint \oiint$<br><code>\int _ &#123;-\infty&#125;^0 f(x)\, \text d x</code></p>
-</li>
+<li><strong>垂直</strong> <code>\perp</code><br>$\perp$  </li>
+<li><strong>分数</strong><code>\frac&#123;&#125;&#123;&#125;</code><br>例 $a&#x3D;\frac{b}{c}$<br>*当分数中的部分显示过小时，可以使用<code>\dfrac&#123;&#125;&#123;&#125;</code>使其中的显示变大<br>$\dfrac{\dfrac1{x+1}}{y+1}$ &lt;-变大版本<br>$\$<br>  $\frac{\frac1{x+1}}{y+1}$ &lt;-普通版本  </li>
+<li><strong>取极限</strong><code>\lim\limits_&#123;&#125;</code> *<em>箭头需要用 <code>\to</code>表示</em><br>例 $\lim\limits_{x \to 0}$<br>*若不加<code>\limits</code>，显示为 $\lim_{x \to 0}$  </li>
+<li><strong>三角函数、对数函数</strong><code>\函数拼写</code> *<em>当函数后的内容多于一个字符时，使用大括号将其包括</em><br>例 $\sin x &#x2F;\ln{x+1}$  </li>
+<li><strong>求和、求积</strong><code>\sum\limits_&#123;&#125;^</code> <code>\prod\limits_&#123;&#125;^</code><br>例 $\sum\limits_{i&#x3D;0}^n$  </li>
+<li><strong>积分、重积分</strong><code>\int \iint \iiint \oint \oiint</code> 使用 <code>\displaystyle</code> 可使单行积分符号大小变大<br>例 $\int \iint \iiint \oint \oiint$<br><code>\int _ &#123;-\infty&#125;^0 f(x)\, \text d x</code></li>
 </ul>
 </li>
 </ul>
